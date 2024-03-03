@@ -5,9 +5,7 @@ class Student {
 public:
     string name;
     vector <int>* grades;
-   
 
-   
     Student(string studentName) : name(studentName) {
         grades = new vector<int>();
         
@@ -22,7 +20,6 @@ public:
       
     }
 
-    
     void displayInfo() const {
         string sub_name;
         cout << "Student: " << name << "\nGrades: ";
