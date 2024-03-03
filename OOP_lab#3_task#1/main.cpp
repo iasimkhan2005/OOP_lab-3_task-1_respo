@@ -8,10 +8,10 @@ using namespace std;
 int main() {
     vector<Student*> students;
   
-    students.push_back(new Student("Alice"));
+    students.push_back(new Student("Ali"));
     students[0]->addGrade(90);
     
-    students.push_back(new Student("Bob"));
+    students.push_back(new Student("Babar"));
 
     students[1]->addGrade(78);
     
